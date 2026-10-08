@@ -1,0 +1,22 @@
+export const problemsData = [
+  { id: "1", title: "Two Sum", difficulty: "Easy", acceptance: "52.3%", tags: ["Array", "Hash Table"], status: "todo" },
+  { id: "2", title: "Add Two Numbers", difficulty: "Medium", acceptance: "41.8%", tags: ["Linked List", "Math"], status: "todo" },
+  { id: "3", title: "Longest Substring Without Repeating Characters", difficulty: "Medium", acceptance: "34.5%", tags: ["Hash Table", "String", "Sliding Window"], status: "todo" },
+  { id: "4", title: "Median of Two Sorted Arrays", difficulty: "Hard", acceptance: "39.1%", tags: ["Array", "Binary Search", "Divide and Conquer"], status: "todo" },
+  { id: "5", title: "Longest Palindromic Substring", difficulty: "Medium", acceptance: "33.4%", tags: ["String", "Dynamic Programming"], status: "todo" },
+  { id: "206", title: "Reverse Linked List", difficulty: "Easy", acceptance: "76.4%", tags: ["Linked List", "Recursion"], status: "todo" },
+  { id: "20", title: "Valid Parentheses", difficulty: "Easy", acceptance: "40.2%", tags: ["String", "Stack"], status: "todo" },
+  { id: "88", title: "Merge Sorted Arrays", difficulty: "Easy", acceptance: "49.1%", tags: ["Array", "Two Pointers", "Sorting"], status: "todo" },
+  { id: "704", title: "Binary Search", difficulty: "Easy", acceptance: "56.7%", tags: ["Array", "Binary Search"], status: "todo" },
+  { id: "53", title: "Maximum Subarray", difficulty: "Medium", acceptance: "50.4%", tags: ["Array", "Divide and Conquer", "Dynamic Programming"], status: "todo" },
+  { id: "70", title: "Climbing Stairs", difficulty: "Easy", acceptance: "52.7%", tags: ["Math", "Dynamic Programming", "Memoization"], status: "todo" },
+  { id: "200", title: "Number of Islands", difficulty: "Medium", acceptance: "59.2%", tags: ["Array", "Depth-First Search", "Breadth-First Search", "Union Find", "Matrix"], status: "todo" },
+  { id: "146", title: "LRU Cache", difficulty: "Medium", acceptance: "42.1%", tags: ["Hash Table", "Linked List", "Design", "Doubly-Linked List"], status: "todo" },
+  { id: "139", title: "Word Break", difficulty: "Medium", acceptance: "46.7%", tags: ["Array", "Hash Table", "String", "Dynamic Programming", "Trie"], status: "todo" },
+  { id: "15", title: "3Sum", difficulty: "Medium", acceptance: "34.2%", tags: ["Array", "Two Pointers", "Sorting"], status: "todo" },
+  { id: "42", title: "Trapping Rain Water", difficulty: "Hard", acceptance: "60.4%", tags: ["Array", "Two Pointers", "Dynamic Programming", "Stack", "Monotonic Stack"], status: "todo" },
+  { id: "21", title: "Merge Two Sorted Lists", difficulty: "Easy", acceptance: "63.9%", tags: ["Linked List", "Recursion"], status: "todo" },
+  { id: "121", title: "Best Time to Buy and Sell Stock", difficulty: "Easy", acceptance: "54.1%", tags: ["Array", "Dynamic Programming"], status: "todo" },
+  { id: "23", title: "Merge k Sorted Lists", difficulty: "Hard", acceptance: "51.4%", tags: ["Linked List", "Divide and Conquer", "Heap (Priority Queue)", "Merge Sort"], status: "todo" },
+  { id: "33", title: "Search in Rotated Sorted Array", difficulty: "Medium", acceptance: "40.3%", tags: ["Array", "Binary Search"], status: "todo" }
+];

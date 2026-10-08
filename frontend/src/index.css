@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-fg);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-fg);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-fg);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-fg);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-fg);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-fg);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-fg);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-fg);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+  --radius-sm: 0.25rem;
+}
+
+@layer base {
+  :root {
+    /* Light Mode */
+    --bg: #FAFAFA;
+    --fg: #0F1117;
+    --card: #FFFFFF;
+    --card-fg: #0F1117;
+    --popover: #FFFFFF;
+    --popover-fg: #0F1117;
+    --primary: #FFA116;
+    --primary-fg: #FFFFFF;
+    --secondary: #3B82F6;
+    --secondary-fg: #FFFFFF;
+    --muted: #F1F5F9;
+    --muted-fg: #64748B;
+    --accent: #F1F5F9;
+    --accent-fg: #0F1117;
+    --destructive: #EF4444;
+    --destructive-fg: #FFFFFF;
+    --success: #22C55E;
+    --success-fg: #FFFFFF;
+    --border: #E2E8F0;
+    --input: #E2E8F0;
+    --ring: #FFA116;
+  }
+
+  .dark {
+    /* Dark Mode */
+    --bg: #0F1117;
+    --fg: #E6EDF3;
+    --card: #161B22;
+    --card-fg: #E6EDF3;
+    --popover: #1E2530;
+    --popover-fg: #E6EDF3;
+    --primary: #FFA116;
+    --primary-fg: #0F1117;
+    --secondary: #3B82F6;
+    --secondary-fg: #E6EDF3;
+    --muted: #1E2530;
+    --muted-fg: #9CA3AF;
+    --accent: #1E2530;
+    --accent-fg: #E6EDF3;
+    --destructive: #EF4444;
+    --destructive-fg: #E6EDF3;
+    --success: #22C55E;
+    --success-fg: #0F1117;
+    --border: #2D333B;
+    --input: #2D333B;
+    --ring: #FFA116;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+}
